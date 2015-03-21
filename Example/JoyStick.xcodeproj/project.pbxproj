@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AAF4D5D1777E6FE00A583C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAF4D5C1777E6FE00A583C6 /* UIKit.framework */; };
+		3AAF4D5F1777E6FE00A583C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAF4D5E1777E6FE00A583C6 /* Foundation.framework */; };
+		3AAF4D611777E6FE00A583C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAF4D601777E6FE00A583C6 /* CoreGraphics.framework */; };
+		3AAF4D671777E6FE00A583C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AAF4D651777E6FE00A583C6 /* InfoPlist.strings */; };
+		3AAF4D691777E6FE00A583C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF4D681777E6FE00A583C6 /* main.m */; };
+		3AAF4D6D1777E6FE00A583C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF4D6C1777E6FE00A583C6 /* AppDelegate.m */; };
+		3AAF4D701777E6FE00A583C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF4D6F1777E6FE00A583C6 /* ViewController.m */; };
+		3AAF4D731777E6FE00A583C6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AAF4D711777E6FE00A583C6 /* ViewController.xib */; };
+		3AAF4D7B1777E6FE00A583C6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAF4D7A1777E6FE00A583C6 /* SenTestingKit.framework */; };
+		3AAF4D7C1777E6FE00A583C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAF4D5C1777E6FE00A583C6 /* UIKit.framework */; };
+		3AAF4D7D1777E6FE00A583C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAF4D5E1777E6FE00A583C6 /* Foundation.framework */; };
+		3AAF4D851777E6FF00A583C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AAF4D831777E6FF00A583C6 /* InfoPlist.strings */; };
+		3AAF4D881777E6FF00A583C6 /* JoyStickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF4D871777E6FF00A583C6 /* JoyStickTests.m */; };
+		3AAF4D971777E99600A583C6 /* JoyStick Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AAF4D951777E99600A583C6 /* JoyStick Background.png */; };
+		3AAF4D981777E99600A583C6 /* JoyStick.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AAF4D961777E99600A583C6 /* JoyStick.png */; };
+		3AAF4D9B1777EAE500A583C6 /* JLJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF4D9A1777EAE500A583C6 /* JLJoystick.m */; };
+		AACBBE5B1ABD77C000C6C069 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE5A1ABD77C000C6C069 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AAF4D7E1777E6FE00A583C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AAF4D4F1777E6FE00A583C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AAF4D571777E6FE00A583C6;
+			remoteInfo = JoyStick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AAF4D581777E6FE00A583C6 /* JoyStick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoyStick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAF4D5C1777E6FE00A583C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3AAF4D5E1777E6FE00A583C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3AAF4D601777E6FE00A583C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3AAF4D641777E6FE00A583C6 /* JoyStick-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JoyStick-Info.plist"; sourceTree = "<group>"; };
+		3AAF4D661777E6FE00A583C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AAF4D681777E6FE00A583C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AAF4D6A1777E6FE00A583C6 /* JoyStick-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JoyStick-Prefix.pch"; sourceTree = "<group>"; };
+		3AAF4D6B1777E6FE00A583C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3AAF4D6C1777E6FE00A583C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3AAF4D6E1777E6FE00A583C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3AAF4D6F1777E6FE00A583C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3AAF4D721777E6FE00A583C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3AAF4D791777E6FE00A583C6 /* JoyStickTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoyStickTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAF4D7A1777E6FE00A583C6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3AAF4D821777E6FF00A583C6 /* JoyStickTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JoyStickTests-Info.plist"; sourceTree = "<group>"; };
+		3AAF4D841777E6FF00A583C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AAF4D861777E6FF00A583C6 /* JoyStickTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoyStickTests.h; sourceTree = "<group>"; };
+		3AAF4D871777E6FF00A583C6 /* JoyStickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoyStickTests.m; sourceTree = "<group>"; };
+		3AAF4D951777E99600A583C6 /* JoyStick Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "JoyStick Background.png"; path = "Images/PNG/JoyStick Background.png"; sourceTree = "<group>"; };
+		3AAF4D961777E99600A583C6 /* JoyStick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = JoyStick.png; path = Images/PNG/JoyStick.png; sourceTree = "<group>"; };
+		3AAF4D991777EAE500A583C6 /* JLJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLJoystick.h; sourceTree = "<group>"; };
+		3AAF4D9A1777EAE500A583C6 /* JLJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLJoystick.m; sourceTree = "<group>"; };
+		AACBBE5A1ABD77C000C6C069 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AAF4D551777E6FE00A583C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE5B1ABD77C000C6C069 /* QuartzCore.framework in Frameworks */,
+				3AAF4D5D1777E6FE00A583C6 /* UIKit.framework in Frameworks */,
+				3AAF4D5F1777E6FE00A583C6 /* Foundation.framework in Frameworks */,
+				3AAF4D611777E6FE00A583C6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AAF4D751777E6FE00A583C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAF4D7B1777E6FE00A583C6 /* SenTestingKit.framework in Frameworks */,
+				3AAF4D7C1777E6FE00A583C6 /* UIKit.framework in Frameworks */,
+				3AAF4D7D1777E6FE00A583C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AAF4D4D1777E6FE00A583C6 = {
+			isa = PBXGroup;
+			children = (
+				3AAF4D621777E6FE00A583C6 /* JoyStick */,
+				3AAF4D801777E6FE00A583C6 /* JoyStickTests */,
+				3AAF4D5B1777E6FE00A583C6 /* Frameworks */,
+				3AAF4D591777E6FE00A583C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AAF4D591777E6FE00A583C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AAF4D581777E6FE00A583C6 /* JoyStick.app */,
+				3AAF4D791777E6FE00A583C6 /* JoyStickTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AAF4D5B1777E6FE00A583C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE5A1ABD77C000C6C069 /* QuartzCore.framework */,
+				3AAF4D5C1777E6FE00A583C6 /* UIKit.framework */,
+				3AAF4D5E1777E6FE00A583C6 /* Foundation.framework */,
+				3AAF4D601777E6FE00A583C6 /* CoreGraphics.framework */,
+				3AAF4D7A1777E6FE00A583C6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AAF4D621777E6FE00A583C6 /* JoyStick */ = {
+			isa = PBXGroup;
+			children = (
+				3AAF4D951777E99600A583C6 /* JoyStick Background.png */,
+				3AAF4D961777E99600A583C6 /* JoyStick.png */,
+				3AAF4D6B1777E6FE00A583C6 /* AppDelegate.h */,
+				3AAF4D6C1777E6FE00A583C6 /* AppDelegate.m */,
+				3AAF4D991777EAE500A583C6 /* JLJoystick.h */,
+				3AAF4D9A1777EAE500A583C6 /* JLJoystick.m */,
+				3AAF4D6E1777E6FE00A583C6 /* ViewController.h */,
+				3AAF4D6F1777E6FE00A583C6 /* ViewController.m */,
+				3AAF4D711777E6FE00A583C6 /* ViewController.xib */,
+				3AAF4D631777E6FE00A583C6 /* Supporting Files */,
+			);
+			path = JoyStick;
+			sourceTree = "<group>";
+		};
+		3AAF4D631777E6FE00A583C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AAF4D641777E6FE00A583C6 /* JoyStick-Info.plist */,
+				3AAF4D651777E6FE00A583C6 /* InfoPlist.strings */,
+				3AAF4D681777E6FE00A583C6 /* main.m */,
+				3AAF4D6A1777E6FE00A583C6 /* JoyStick-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AAF4D801777E6FE00A583C6 /* JoyStickTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AAF4D861777E6FF00A583C6 /* JoyStickTests.h */,
+				3AAF4D871777E6FF00A583C6 /* JoyStickTests.m */,
+				3AAF4D811777E6FE00A583C6 /* Supporting Files */,
+			);
+			path = JoyStickTests;
+			sourceTree = "<group>";
+		};
+		3AAF4D811777E6FE00A583C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AAF4D821777E6FF00A583C6 /* JoyStickTests-Info.plist */,
+				3AAF4D831777E6FF00A583C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AAF4D571777E6FE00A583C6 /* JoyStick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AAF4D8B1777E6FF00A583C6 /* Build configuration list for PBXNativeTarget "JoyStick" */;
+			buildPhases = (
+				3AAF4D541777E6FE00A583C6 /* Sources */,
+				3AAF4D551777E6FE00A583C6 /* Frameworks */,
+				3AAF4D561777E6FE00A583C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoyStick;
+			productName = JoyStick;
+			productReference = 3AAF4D581777E6FE00A583C6 /* JoyStick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AAF4D781777E6FE00A583C6 /* JoyStickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AAF4D8E1777E6FF00A583C6 /* Build configuration list for PBXNativeTarget "JoyStickTests" */;
+			buildPhases = (
+				3AAF4D741777E6FE00A583C6 /* Sources */,
+				3AAF4D751777E6FE00A583C6 /* Frameworks */,
+				3AAF4D761777E6FE00A583C6 /* Resources */,
+				3AAF4D771777E6FE00A583C6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AAF4D7F1777E6FE00A583C6 /* PBXTargetDependency */,
+			);
+			name = JoyStickTests;
+			productName = JoyStickTests;
+			productReference = 3AAF4D791777E6FE00A583C6 /* JoyStickTests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AAF4D4F1777E6FE00A583C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3AAF4D521777E6FE00A583C6 /* Build configuration list for PBXProject "JoyStick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3AAF4D4D1777E6FE00A583C6;
+			productRefGroup = 3AAF4D591777E6FE00A583C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AAF4D571777E6FE00A583C6 /* JoyStick */,
+				3AAF4D781777E6FE00A583C6 /* JoyStickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AAF4D561777E6FE00A583C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAF4D671777E6FE00A583C6 /* InfoPlist.strings in Resources */,
+				3AAF4D731777E6FE00A583C6 /* ViewController.xib in Resources */,
+				3AAF4D971777E99600A583C6 /* JoyStick Background.png in Resources */,
+				3AAF4D981777E99600A583C6 /* JoyStick.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AAF4D761777E6FE00A583C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAF4D851777E6FF00A583C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AAF4D771777E6FE00A583C6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AAF4D541777E6FE00A583C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAF4D691777E6FE00A583C6 /* main.m in Sources */,
+				3AAF4D6D1777E6FE00A583C6 /* AppDelegate.m in Sources */,
+				3AAF4D701777E6FE00A583C6 /* ViewController.m in Sources */,
+				3AAF4D9B1777EAE500A583C6 /* JLJoystick.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AAF4D741777E6FE00A583C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAF4D881777E6FF00A583C6 /* JoyStickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AAF4D7F1777E6FE00A583C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AAF4D571777E6FE00A583C6 /* JoyStick */;
+			targetProxy = 3AAF4D7E1777E6FE00A583C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AAF4D651777E6FE00A583C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AAF4D661777E6FE00A583C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3AAF4D711777E6FE00A583C6 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AAF4D721777E6FE00A583C6 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		3AAF4D831777E6FF00A583C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AAF4D841777E6FF00A583C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AAF4D891777E6FF00A583C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AAF4D8A1777E6FF00A583C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AAF4D8C1777E6FF00A583C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JoyStick/JoyStick-Prefix.pch";
+				INFOPLIST_FILE = "JoyStick/JoyStick-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3AAF4D8D1777E6FF00A583C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JoyStick/JoyStick-Prefix.pch";
+				INFOPLIST_FILE = "JoyStick/JoyStick-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3AAF4D8F1777E6FF00A583C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JoyStick.app/JoyStick";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JoyStick/JoyStick-Prefix.pch";
+				INFOPLIST_FILE = "JoyStickTests/JoyStickTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3AAF4D901777E6FF00A583C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JoyStick.app/JoyStick";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JoyStick/JoyStick-Prefix.pch";
+				INFOPLIST_FILE = "JoyStickTests/JoyStickTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AAF4D521777E6FE00A583C6 /* Build configuration list for PBXProject "JoyStick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AAF4D891777E6FF00A583C6 /* Debug */,
+				3AAF4D8A1777E6FF00A583C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AAF4D8B1777E6FF00A583C6 /* Build configuration list for PBXNativeTarget "JoyStick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AAF4D8C1777E6FF00A583C6 /* Debug */,
+				3AAF4D8D1777E6FF00A583C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AAF4D8E1777E6FF00A583C6 /* Build configuration list for PBXNativeTarget "JoyStickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AAF4D8F1777E6FF00A583C6 /* Debug */,
+				3AAF4D901777E6FF00A583C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AAF4D4F1777E6FE00A583C6 /* Project object */;
+}
